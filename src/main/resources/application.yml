@@ -18,9 +18,9 @@ spring:
   redis:
     database: 0
     #单机模式
-    #url: 127.0.0.1
-    #host: 6379
-    #password :
+    url: 127.0.0.1
+    host: 6379
+    password: redis
     #集群模式
     #cluster:
       #nodes:
